@@ -367,8 +367,12 @@ left side design
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+        width: 100%;
     }
 
+    .time-schedule{
+        padding: 20px 10px;
+    }
     .time-schedule .thumbnail img {
         width: 100%;
         height: auto;
